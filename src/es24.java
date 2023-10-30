@@ -8,7 +8,7 @@ sum(numeri);
     }
 public static int sum(int[] numeri){
         int somma= 0;
- for(int i=0; i< numeri.length; i++){
+ for(int i=0; i<= numeri.length; i++){
      somma += numeri[i];
 
      System.out.println(somma);
