@@ -16,4 +16,5 @@ public static int sum(int[] numeri){
 return somma;
     }
 }
-
+//N.B so che l'esercizio può essere sbagliato perchè mi somma tutti gli elementi dell array, vorrei sapere se il procedimento
+//è giusto e come faccio ad avere la somma singola tra tutti i numeri
