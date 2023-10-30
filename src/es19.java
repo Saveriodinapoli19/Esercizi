@@ -10,14 +10,14 @@
 
      System.out.println(metodo(x));
      }
-public static int metodo(int x){
-int sum= 1;
-         while(x<5){
-    System.out.println(x);
-x++;
-sum +=x;
-}
-return sum;
+     public static int metodo(int x) {
+         int sum = 0;
+         while (x < 5) {
+             System.out.println(x);
+             sum += x;
+             x++;
+         }
+         return sum;
      }
 
 }
