@@ -6,18 +6,18 @@
 
  public class es19 {
      public static void main(String[] args) {
-         int x = 1;
+         int x = 5;
 
-     System.out.println(metodo(x));
+         System.out.println(metodo(x));
      }
      public static int metodo(int x) {
          int sum = 0;
-         while (x < 5) {
-             System.out.println(x);
-             sum += x;
-             x++;
+         int count = 0;
+         while (count < x) {
+             sum += count;
+             count++;
          }
          return sum;
      }
+ }
 
-}
