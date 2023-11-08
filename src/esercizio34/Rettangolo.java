@@ -2,40 +2,26 @@ package esercizio34;
 
 
 
+
 public class Rettangolo extends Forma {
-    private int x = 6;
-    private int y = 6;
-    private int z = x * y;
+    private int base;
+    private int altezza;
 
-
-    public int getX() {
-        return x;
+    public Rettangolo (int base, int altezza) {
+        this.base = base;
+        this.altezza = altezza;
     }
 
-    public int getY() {
-        return y;
-    }
+    public Rettangolo() {
 
-    public int getZ() {
-        return z;
-    }
-
-    public Rettangolo(int x, int y){
-        this.x = x;
-        this.y = y;
-        this.z = z;
     }
 
     @Override
-    public String toString() {
-        return "Rettangolo{" +
-                "x=" + x +
-                ", y=" + y +
-                ", z=" + z +
-                '}';
+    public int calcolaArea() {
+        int area = base * altezza;
+        return area;
     }
 }
-
 
 
 

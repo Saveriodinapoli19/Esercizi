@@ -4,16 +4,18 @@ package esercizio34;
 // Triangolo supportando poi il calcolo dell'area per quest'ultima figura
 public class Triangolo extends Rettangolo{
 
-    public Triangolo(int x, int y) {
-        super(x, y);
+    private int base1;
+    private int altezza1;
+
+    public Triangolo (int base1, int altezza1) {
+        super();
+        this.base1 = base1;
+        this.altezza1 = altezza1;
     }
 
     @Override
-    public String toString() {
-        return "Triangolo{" +
-                "x=" +getX()+
-                ", y=" + getY() +
-                ", z=" + getZ() +
-                '}';
+    public int calcolaArea() {
+        int area = base1 * altezza1;
+        return area;
     }
 }
