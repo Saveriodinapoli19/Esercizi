@@ -8,7 +8,7 @@ package esercizio37;
 public class Main {
     public static void main(String[] args) {
         Triangolo triangolo= new Triangolo(tipoForma.Triangolo);
-        Rettangolo rettangolo= new Rettangolo(tipoForma1.Rettangolo);
+        Rettangolo rettangolo= new Rettangolo(tipoForma.Rettangolo);
 
         Rettangolo.calcolaArea();
         Triangolo.calcolaArea();

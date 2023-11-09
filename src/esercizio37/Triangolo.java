@@ -1,22 +1,22 @@
 package esercizio37;
 
-enum tipoForma{
-    Triangolo;
-}
+
 public class Triangolo extends Forma {
     int num1 = 3;
     int num2 = 5;
     int area = num1 * num2;
 
+    private final tipoForma Triangolo;
+
     public Triangolo(tipoForma triangolo) {
-        this.triangolo = triangolo;
+        this.Triangolo = triangolo;
     }
 
     public static int calcolaArea(int num1, int num2) {
         int area = num1 * num2;
         return area;
     }
-private final tipoForma triangolo;
+
     @Override
     public String toString() {
         return "Triangolo{" +
