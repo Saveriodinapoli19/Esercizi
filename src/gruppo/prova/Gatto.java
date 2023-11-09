@@ -1,4 +1,4 @@
-package prova;
+package gruppo.prova;
 
 public class Gatto extends Animale {
     public static void faiIlVerso(){

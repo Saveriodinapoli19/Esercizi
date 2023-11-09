@@ -1,4 +1,4 @@
-package prova;
+package gruppo.prova;
 //Scrivere un programma che contenga una classe
 // chiamata Animale ed un metodo chiamato faiIlVerso() che stampi il verso dell'animale.
 //Crea poi una sottoclasse chiamata Gatto
@@ -7,21 +7,12 @@ package prova;
 //Animale e di Gatto.
  class Animale {
    public static void faiIlVerso(){
-       System.out.println("Gli animali fanno versi");
+
+
    }
 
-    public static void main(String[] args) {
-        Gatto gatto= new Gatto();
-        gatto.faiIlVerso();
-        Animale.faiIlVerso();
-
-        System.out.println("Il gatto : " + gatto);
-
-
-
+    @Override
+    public String toString() {
+        return"Gli animali fanno versi" ;
     }
-
-
-
-
 }
