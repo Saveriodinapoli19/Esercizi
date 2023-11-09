@@ -2,22 +2,33 @@ package esercizio36;
 
 public class Rettangolo implements Forma{
 
-    private int num1=5;
-    private int num2=3;
-    private int area= num1*num2;
+    private int base;
+    private int altezza;
+    private int area= base*altezza;
 
 
-    @Override
-    public int calcolaArea() {
-        return area;
+    public Rettangolo(int num1, int num2){
+        this.base= num1;
+        this.altezza= num2;
+
+
     }
+
 
     @Override
     public String toString() {
         return "Rettangolo{" +
-                "num1=" + num1 +
-                ", num2=" + num2 +
+                "base=" + base +
+                ", altezza=" + altezza +
                 ", area=" + area +
                 '}';
     }
+
+    @Override
+    public int calcolaArea() {
+        int area= base*altezza;
+        return area;
+    }
 }
+
+
