@@ -1,10 +1,15 @@
 package esercizio35;
 
 public class Triangolo extends Forma{
-    private int base=5;
-    private int altezza=10;
+    private int base;
+    private int altezza;
     private int area= base*altezza/2;
 
+
+    public Triangolo(int base, int altezza){
+        this.base= base;
+        this.altezza= altezza;
+    }
     @Override
     public int calcolaArea() {
         int area = base * altezza/2;
