@@ -1,21 +1,22 @@
 package esercizio35;
 
 public class Triangolo extends Forma{
-    int x= 2;
-    int y= 10;
-    int z= x*y;
+    private int base=5;
+    private int altezza=10;
+    private int area= base*altezza/2;
+
     @Override
     public int calcolaArea() {
-
-        return z;
+        int area = base * altezza/2;
+        return area;
     }
 
     @Override
     public String toString() {
         return "Triangolo{" +
-                "x=" + x +
-                ", y=" + y +
-                ", z=" + z +
+                "base=" + base +
+                ", altezza=" + altezza +
+                ", area=" + area +
                 '}';
     }
 }
