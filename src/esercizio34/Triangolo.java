@@ -15,7 +15,7 @@ public class Triangolo extends Rettangolo{
 
     @Override
     public int calcolaArea() {
-        int area = base1 * altezza1;
+        int area = base1 * altezza1/2;
         return area;
     }
 }
