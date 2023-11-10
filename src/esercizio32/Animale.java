@@ -1,4 +1,4 @@
-package gruppo.prova;
+package esercizio32;
 //Scrivere un programma che contenga una classe
 // chiamata Animale ed un metodo chiamato faiIlVerso() che stampi il verso dell'animale.
 //Crea poi una sottoclasse chiamata Gatto

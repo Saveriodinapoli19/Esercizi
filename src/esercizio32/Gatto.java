@@ -1,4 +1,4 @@
-package gruppo.prova;
+package esercizio32;
 
 public class Gatto extends Animale {
 
