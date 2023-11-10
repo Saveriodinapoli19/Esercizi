@@ -5,6 +5,8 @@ package esercizio33;
 // fa override del metodo calcolaArea() per calcolare l'area del rettangolo.
 public class Forma {
     public int calcolaArea() {
-            return 0;
-        }
+
+        return 0;
+
+    }
     }

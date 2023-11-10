@@ -1,3 +1,5 @@
+package esercizi;
+
 //Scrivi un programma che contenga un metodo che prende
 //in ingresso un valore numerico e restituisca il nome del
 // giorno della settimana come stringa o una stringa

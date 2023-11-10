@@ -1,3 +1,5 @@
+package esercizi;
+
 import java.util.Arrays;
 
 //Scrivere un programma che contenga un metodo che permette di

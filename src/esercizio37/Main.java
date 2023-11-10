@@ -10,10 +10,9 @@ public class Main {
         Triangolo triangolo= new Triangolo(tipoForma.Triangolo);
         Rettangolo rettangolo= new Rettangolo(tipoForma.Rettangolo);
 
-        Rettangolo.calcolaArea();
-        Triangolo.calcolaArea();
+        System.out.println("L'Area del rettangolo è = " + rettangolo.calcolaArea());
+        System.out.println("L'Area del triangolo è = " + triangolo.calcolaArea());
 
-        System.out.println("L'Area del rettangolo è = " + rettangolo);
-        System.out.println("L'Area del triangolo è = " + triangolo);
+        System.out.println(triangolo);
     }
 }

@@ -3,8 +3,6 @@ package esercizio35;
 public  class Rettangolo extends Forma {
     private int base;
     private int altezza;
-    private int area= base*altezza;
-
 
     public Rettangolo(int base, int altezza){
         this.base= base;
@@ -16,7 +14,7 @@ public  class Rettangolo extends Forma {
         return "Rettangolo{" +
                 "base=" + base +
                 ", altezza=" + altezza +
-                ", area=" + area +
+                ", area=" + calcolaArea() +
                 '}';
     }
 

@@ -4,8 +4,18 @@ enum tipoForma{
     Triangolo;
 }
 public class Forma {
-    public static int calcolaArea() {
-            return 0;
+    protected tipoForma forma;
 
-        }
+    public Forma(tipoForma forma) {
+        this.forma = forma;
     }
+
+    public float calcolaArea() {
+            return 0;
+    }
+
+    @Override
+    public String toString() {
+        return "Io sono un: "+forma.name();
+    }
+}

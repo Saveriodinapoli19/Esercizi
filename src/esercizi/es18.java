@@ -1,3 +1,5 @@
+package esercizi;
+
 //Scrivi un programma che contenga un metodo che prende in
 // ingresso un carattere e ne identifica il tipo per un operazione di
 // algebra (+ addizione - sottrazione * moltiplicazione / divisione).

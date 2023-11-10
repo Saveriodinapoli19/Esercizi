@@ -1,4 +1,4 @@
-package es32;
+package gruppo.prova.es32;
 
 public class Gatto extends Animale {
     public void failVerso() {

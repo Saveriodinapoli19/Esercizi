@@ -6,13 +6,7 @@ package gruppo.prova;
 // quindi a far stampare il verso di
 //Animale e di Gatto.
  class Animale {
-   public static void faiIlVerso(){
-
-
+   public void faiIlVerso() {
+       System.out.println("Gli animali fanno versi");
    }
-
-    @Override
-    public String toString() {
-        return"Gli animali fanno versi" ;
-    }
 }

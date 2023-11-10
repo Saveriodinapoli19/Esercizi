@@ -1,4 +1,4 @@
-//Scrivere un programma che contenga un metodo
+package esercizi;//Scrivere un programma che contenga un metodo
 // che sfrutti il while loop e prenda in ingresso
 // 1 valore intero come limite superiore e
 // calcoli la somma di tutti i valori prima del limite e la stampi a video.

@@ -1,7 +1,7 @@
 package esercizio30;
 
 public class auto {
-    private int cilindrata;
+    private  int cilindrata;
     private String modello;
     private String targa;
     private String marca;

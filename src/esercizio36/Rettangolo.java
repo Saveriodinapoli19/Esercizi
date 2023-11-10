@@ -4,7 +4,7 @@ public class Rettangolo implements Forma{
 
     private int base;
     private int altezza;
-    private int area= base*altezza;
+
 
 
     public Rettangolo(int num1, int num2){
@@ -20,7 +20,7 @@ public class Rettangolo implements Forma{
         return "Rettangolo{" +
                 "base=" + base +
                 ", altezza=" + altezza +
-                ", area=" + area +
+                ", area=" + calcolaArea() +
                 '}';
     }
 

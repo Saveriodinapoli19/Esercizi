@@ -1,4 +1,4 @@
-package es32;
+package gruppo.prova.es32;
 
 public class esercizio32 {
     public static void main(String[] args){

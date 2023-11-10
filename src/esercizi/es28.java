@@ -1,3 +1,5 @@
+package esercizi;
+
 public class es28 {
         public static void main (String[] args) {
             int[][] matrix = {

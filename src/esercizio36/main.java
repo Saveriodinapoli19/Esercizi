@@ -7,8 +7,7 @@ public class main {
     public static void main(String[] args) {
         Rettangolo rettangolo= new Rettangolo(6,6);
         Triangolo triangolo= new Triangolo(10,5);
-        rettangolo.calcolaArea();
-        triangolo.calcolaArea();
+
         System.out.println("L'Area del Rettangolo è = " + rettangolo.calcolaArea());
         System.out.println("L'Area del Triangolo è = " + triangolo.calcolaArea());
     }

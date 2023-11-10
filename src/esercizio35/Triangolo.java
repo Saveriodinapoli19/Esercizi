@@ -3,9 +3,6 @@ package esercizio35;
 public class Triangolo extends Forma{
     private int base;
     private int altezza;
-    private int area= base*altezza/2;
-
-
     public Triangolo(int base, int altezza){
         this.base= base;
         this.altezza= altezza;
@@ -21,7 +18,7 @@ public class Triangolo extends Forma{
         return "Triangolo{" +
                 "base=" + base +
                 ", altezza=" + altezza +
-                ", area=" + area +
+                ", area=" + calcolaArea() +
                 '}';
     }
 }
